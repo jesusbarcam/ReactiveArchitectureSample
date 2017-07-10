@@ -7,6 +7,7 @@ import { MessageSectionComponent } from './message-section/message-section.compo
 import { ThreadSectionComponent } from './thread-section/thread-section.component';
 import { MessageListComponent } from './message-list/message-list.component';
 import { ThreadListComponent } from './thread-list/thread-list.component';
+import { ThreadsService } from './services/threads.service';
 
 @NgModule({
   declarations: [
@@ -17,10 +18,12 @@ import { ThreadListComponent } from './thread-list/thread-list.component';
     MessageListComponent,
     ThreadListComponent
   ],
+  providers: [
+    ThreadsService
+  ],
   imports: [
     BrowserModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
