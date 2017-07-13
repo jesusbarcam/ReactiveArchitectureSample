@@ -1,12 +1,6 @@
-
-
-
-import {Participant} from "../../shared/model/participant";
-import {Thread} from "../../shared/model/thread";
-import {Message} from "../../shared/model/message";
-
-
-export const dbParticipants: {[key: number]: Participant} = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.dbParticipants = {
     1: {
         id: 1,
         name: 'Alice'
@@ -28,9 +22,7 @@ export const dbParticipants: {[key: number]: Participant} = {
         name: 'Erin'
     }
 };
-
-
-export const dbThreads: {[key: number]: Thread} = {
+exports.dbThreads = {
     1: {
         id: 1,
         messageIds: [1, 2, 3, 4, 5],
@@ -47,7 +39,6 @@ export const dbThreads: {[key: number]: Thread} = {
             3: 0,
             4: 0
         }
-
     },
     3: {
         id: 3,
@@ -60,17 +51,13 @@ export const dbThreads: {[key: number]: Thread} = {
         }
     }
 };
-
-
-export const dbMessages: {[key: number]: Message} = {
-
+exports.dbMessages = {
     1: {
         id: 1,
         threadId: 1,
         participantId: 1,
         text: 'Did you take take out the trash today ?',
         timestamp: new Date().getTime()
-
     },
     2: {
         id: 2,
@@ -93,7 +80,6 @@ export const dbMessages: {[key: number]: Message} = {
         text: 'OK, no problem',
         timestamp: new Date().getTime()
     },
-
     5: {
         id: 5,
         threadId: 1,
@@ -101,7 +87,6 @@ export const dbMessages: {[key: number]: Message} = {
         text: 'Great',
         timestamp: new Date().getTime()
     },
-
     6: {
         id: 6,
         threadId: 2,
@@ -137,8 +122,6 @@ export const dbMessages: {[key: number]: Message} = {
         text: 'OK kids thats enough, tidy up the living room now please !',
         timestamp: new Date().getTime()
     },
-
-
     11: {
         id: 11,
         threadId: 3,
@@ -181,30 +164,12 @@ export const dbMessages: {[key: number]: Message} = {
         text: 'Let\'s go everyone, put that on pause and come to the table, the dinner will be cold',
         timestamp: new Date().getTime()
     }
-
 };
-
-
-export const dbMessagesQueuePerUser: {[key: number]: number[]} = {
-
+exports.dbMessagesQueuePerUser = {
     1: [],
     2: [],
     3: [],
     4: [],
     5: []
-
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//# sourceMappingURL=/Users/Rawdog/Developer/Curses/AngularUniversity/Angular NgRx Store Reactive Architecture/Repository/ReactiveArchitectureSample/ts-node/384a801b3ad8e973f407715b14fc72d4c0592944/3ed30498792eae82e63dd66b32d90e2a94cc46c2.js.map
