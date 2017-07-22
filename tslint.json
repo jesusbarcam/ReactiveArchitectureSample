@@ -8,7 +8,7 @@
     "class-name": true,
     "comment-format": [
       true,
-      "check-space"
+      //"check-space"
     ],
     "curly": true,
     "eofline": true,
@@ -104,8 +104,8 @@
       "check-branch",
       "check-decl",
       "check-operator",
-      "check-separator",
-      "check-type"
+      "check-separator"
+      //"check-type"
     ],
     "directive-selector": [
       true,

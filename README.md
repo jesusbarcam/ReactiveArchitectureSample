@@ -1,5 +1,5 @@
 # ReactiveArchitectureSample
-
+This projects is a sample that am doing while learning the angular and ngrx architecture. If anybody can be useful.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
 
 ## Development server
